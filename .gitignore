@@ -1,5 +1,9 @@
+# Node
 node_modules/
-
 package-lock.json
 
+# Example file
 public/testing.js
+
+# macOS
+.DS_Store
