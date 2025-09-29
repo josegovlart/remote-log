@@ -4,7 +4,7 @@ let isPaused = false;
 document.getElementById('clear-btn').onclick = () => logContainer.innerHTML = '';
 
 const connectWS = () => {
-  const socket = new WebSocket(`ws://10.0.34.239:3001`);
+  const socket = new WebSocket(`ws://${window.APP_CONFIG.WS_IP}:3001`);
 
   socket.onopen = () => console.log('Connected!');
   socket.onclose = () => {
