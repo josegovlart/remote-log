@@ -1,4 +1,4 @@
-# 🖥️ Remote Console
+# 🖥️ Remote Log
 
 **Remote Console** is a lightweight application to visualize logs in real time in your browser.  
 It uses **Express** + **WebSockets** on the backend and a minimal web interface on the frontend.  
@@ -9,8 +9,8 @@ It uses **Express** + **WebSockets** on the backend and a minimal web interface 
 
 Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/remote-console.git
-cd remote-console
+git clone https://github.com/<your-username>/remote-log.git
+cd remote-log
 ```
 
 Install dependencies:
